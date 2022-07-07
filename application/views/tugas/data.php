@@ -21,16 +21,16 @@
 										<td scope="row">
 											<p><?= $data->nama ?></p>
 											<?php if ($this->fungsi->pilihan_advanced("tb_tugas","user_id",$data->id)->row("draft") != null ) { ?>
-												<a href="<?=base_url("/asset/dist/img/filetugas/".$this->fungsi->pilihan_advanced("tb_tugas","user_id",$data->id)->row("draft"))?>" class="btn btn-xs btn-info">Draft</a>
+												<a href="<?=base_url("/assets/dist/img/filetugas/".$this->fungsi->pilihan_advanced("tb_tugas","user_id",$data->id)->row("draft"))?>" class="btn btn-xs btn-info">Draft</a>
 											<?php } ?>
 											<?php if ($this->fungsi->pilihan_advanced("tb_tugas","user_id",$data->id)->row("revisi") != null ) { ?>
-												<a href="<?=base_url("/asset/dist/img/filetugas/".$this->fungsi->pilihan_advanced("tb_tugas","user_id",$data->id)->row("revisi"))?>?>" class="btn btn-xs btn-secondary">Revisi</a>
+												<a href="<?=base_url("/assets/dist/img/filetugas/".$this->fungsi->pilihan_advanced("tb_tugas","user_id",$data->id)->row("revisi"))?>?>" class="btn btn-xs btn-secondary">Revisi</a>
 											<?php } ?>
 											<?php if ($this->fungsi->pilihan_advanced("tb_tugas","user_id",$data->id)->row("teks") != null ) { ?>
-												<a href="<?=base_url("/asset/dist/img/filetugas/".$this->fungsi->pilihan_advanced("tb_tugas","user_id",$data->id)->row("teks"))?>" class="btn btn-xs btn-warning">Teks</a>
+												<a href="<?=base_url("/assets/dist/img/filetugas/".$this->fungsi->pilihan_advanced("tb_tugas","user_id",$data->id)->row("teks"))?>" class="btn btn-xs btn-warning">Teks</a>
 											<?php } ?>
 											<?php if ($this->fungsi->pilihan_advanced("tb_tugas","user_id",$data->id)->row("tugasakhir") != null ) { ?>
-												<a href="<?=base_url("/asset/dist/img/filetugas/".$this->fungsi->pilihan_advanced("tb_tugas","user_id",$data->id)->row("tugasakhir"))?>" class="btn btn-xs btn-success">Tugas Akhir</a>
+												<a href="<?=base_url("/assets/dist/img/filetugas/".$this->fungsi->pilihan_advanced("tb_tugas","user_id",$data->id)->row("tugasakhir"))?>" class="btn btn-xs btn-success">Tugas Akhir</a>
 											<?php } ?>
 										</td>
 									</tr>
