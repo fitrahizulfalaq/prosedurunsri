@@ -80,7 +80,7 @@
           </div>
           <!-- /.card-body -->
           <div class="card-footer">
-            <button type="submit" class="btn btn-success">Edit</button>
+            <button id="btn-submit" type="submit" class="btn btn-success" onclick="document.getElementById('btn-submit').innerHTML='Proses Upload'">Edit</button>
             <button type="reset" class="btn btn-danger">Ulangi</button>            
           </div>
         <?= form_close() ?>
