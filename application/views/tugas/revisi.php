@@ -18,7 +18,7 @@
 								<input type="file" class="form-control form-control-sm" name="revisi" accept=".doc,.docx,.pdf">
 							</div>
 							<div class="input-group-append">
-								<button type="submit" class="btn btn-sm btn-success">Unggah</button>
+								<button id="btn-submit" type="submit" class="btn btn-sm btn-success" onclick="document.getElementById('btn-submit').innerHTML='Proses Upload'">Unggah</button>
 							</div>
 						<?= form_close() ?>
 						<?php } else { ?>
