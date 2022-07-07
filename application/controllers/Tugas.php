@@ -67,7 +67,7 @@ class Tugas extends CI_Controller
 			$this->tugas_m->simpantugas($post, $id);
 		} else {
 			// echo "update tugas";
-			$this->tugas_m->updatetugas($post, $id);			
+			$this->tugas_m->updatedraft($post, $id);			
 		}
 	
 
@@ -137,7 +137,7 @@ class Tugas extends CI_Controller
 			$this->tugas_m->simpantugas($post, $id);
 		} else {
 			// echo "update tugas";
-			$this->tugas_m->updatetugas($post, $id);			
+			$this->tugas_m->updaterevisi($post, $id);			
 		}
 	
 
@@ -207,7 +207,7 @@ class Tugas extends CI_Controller
 			$this->tugas_m->simpantugas($post, $id);
 		} else {
 			// echo "update tugas";
-			$this->tugas_m->updatetugas($post, $id);			
+			$this->tugas_m->updateteks($post, $id);			
 		}
 	
 
@@ -277,7 +277,7 @@ class Tugas extends CI_Controller
 			$this->tugas_m->simpantugas($post, $id);
 		} else {
 			// echo "update tugas";
-			$this->tugas_m->updatetugas($post, $id);			
+			$this->tugas_m->updatetugasakhir($post, $id);			
 		}
 	
 

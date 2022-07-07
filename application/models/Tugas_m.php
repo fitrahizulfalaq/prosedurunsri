@@ -57,11 +57,29 @@ class Tugas_m extends CI_Model
 		$this->db->insert('tb_tugas', $params);
 	}
 
-	function updatetugas($post)
+	function updatedraft($post)
 	{
 		$params['draft'] =  $post['draft'];
+		$this->db->where('user_id', $this->session->id);
+		$this->db->update('tb_tugas', $params);
+	}
+
+	function updaterevisi($post)
+	{
 		$params['revisi'] =  $post['revisi'];
+		$this->db->where('user_id', $this->session->id);
+		$this->db->update('tb_tugas', $params);
+	}
+
+	function updateteks($post)
+	{
 		$params['teks'] =  $post['teks'];
+		$this->db->where('user_id', $this->session->id);
+		$this->db->update('tb_tugas', $params);
+	}
+
+	function updatetugasakhir($post)
+	{
 		$params['tugasakhir'] =  $post['tugasakhir'];
 		$this->db->where('user_id', $this->session->id);
 		$this->db->update('tb_tugas', $params);
