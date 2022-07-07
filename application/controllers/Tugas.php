@@ -30,6 +30,9 @@ class Tugas extends CI_Controller
 
 	public function draft($id = null)
 	{
+		if ($this->session->tipe_user == "2") {
+			redirect("tugas");
+		}
 		$data['menu'] = "Profil Peneliti";
 		$id = $this->uri->segment("3");
 		$data['draft'] = $this->tugas_m->get($id);
@@ -96,6 +99,10 @@ class Tugas extends CI_Controller
 
 	public function revisi($id = null)
 	{
+		if ($this->session->tipe_user == "2") {
+			redirect("tugas");
+		}
+
 		$data['menu'] = "Profil Peneliti";
 		$id = $this->uri->segment("3");
 		$data['revisi'] = $this->tugas_m->get($id);
@@ -162,6 +169,10 @@ class Tugas extends CI_Controller
 
 	public function teks($id = null)
 	{
+		if ($this->session->tipe_user == "2") {
+			redirect("tugas");
+		}
+
 		$data['menu'] = "Profil Peneliti";
 		$id = $this->uri->segment("3");
 		$data['teks'] = $this->tugas_m->get($id);
@@ -228,6 +239,10 @@ class Tugas extends CI_Controller
 
 	public function tugasakhir($id = null)
 	{
+		if ($this->session->tipe_user == "2") {
+			redirect("tugas");
+		}
+		
 		$data['menu'] = "Profil Peneliti";
 		$id = $this->uri->segment("3");
 		$data['tugasakhir'] = $this->tugas_m->get($id);
