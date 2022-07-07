@@ -1,4 +1,5 @@
 <?php
+ob_start();
 defined('BASEPATH') or exit('No direct script access allowed');
 
 class Bimbingan extends CI_Controller

@@ -1,4 +1,5 @@
 <?php
+ob_start();
 defined('BASEPATH') or exit('No direct script access allowed');
 
 class Tugas extends CI_Controller
@@ -242,7 +243,7 @@ class Tugas extends CI_Controller
 		if ($this->session->tipe_user == "2") {
 			redirect("tugas");
 		}
-		
+
 		$data['menu'] = "Profil Peneliti";
 		$id = $this->uri->segment("3");
 		$data['tugasakhir'] = $this->tugas_m->get($id);
