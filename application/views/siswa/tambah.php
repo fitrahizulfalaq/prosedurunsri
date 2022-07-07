@@ -31,7 +31,7 @@
 						</div>
 						<!-- /.card-body -->
 						<div class="card-footer">
-							<button type="submit" class="btn btn-success">Tambah</button>
+							<button id="btn-submit" type="submit" class="btn btn-success" onclick="document.getElementById('btn-submit').innerHTML='Proses Upload'">Tambah</button>
 							<button type="reset" class="btn btn-danger">Ulangi</button>
 						</div>
 					</form>
