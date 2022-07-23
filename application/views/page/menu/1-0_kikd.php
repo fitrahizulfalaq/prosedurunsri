@@ -11,7 +11,7 @@
 						</center>
 						<hr>
 						<br>
-						<button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal-default">BACA KI & KI</button>
+						<button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal-default">BACA KI & KD</button>
 
 					</div>
 					<!-- /.card-body -->
