@@ -6,7 +6,7 @@
 			<div class="col-md-12">
 				<div class="card card-info card-outline">
 					<div class="card-body box-profile">
-						<center><h2>REFERENSI/SUMBER BELAJAR</h2></center>
+						<center><h2>EVALUASI DAN TUGAS</h2></center>
 						<hr>
 						<a href="<?=base_url("page/menu/3-1_educandy")?>" class="btn btn-primary btn-block text-left"><i class="fa fa-book"></i> KUIS (EDUCANDY)​</a>
 						<a href="<?=base_url("tugas/draft")?>" class="btn btn-primary btn-block text-left"><i class="fa fa-book"></i> DRAF TEKS PROSEDUR (WORD)​</a>
