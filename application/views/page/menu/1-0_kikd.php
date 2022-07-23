@@ -7,11 +7,11 @@
 				<div class="card card-info card-outline">
 					<div class="card-body box-profile">
 						<center>
-							<h4>KOMPETENSI INTI DAN KOMPETENSI DASAR</h4>
+							<h4>TUJUAN PEMBELAJARAN & KOMPTENSI DASAR (KD)</h4>
 						</center>
 						<hr>
 						<br>
-						<button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal-default">BACA KI & KD</button>
+						<button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal-default">BACA TUJUAN PEMBELAJARAN & KOMPTENSI DASAR (KD)</button>
 
 					</div>
 					<!-- /.card-body -->
@@ -28,7 +28,7 @@
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h4 class="modal-title">KOMPETENSI INTI DAN KOMPETENSI DASAR</h4>
+				<h4 class="modal-title">TUJUAN PEMBELAJARAN & KOMPTENSI DASAR (KD)</h4>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
