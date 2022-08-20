@@ -8,7 +8,7 @@
 					<div class="card-body box-profile">
 						<center><h4>TAHAP MENULIS TEKS PROSEDUR</h4></center>
 						<hr>
-						<iframe frameBorder="0" width="100%" height="300" src="https://www.youtube-nocookie.com/embed/LTpNJv-a1TM?mute=0&modestbranding=0&autoplay=1&autohide=1&rel=0&showinfo=0&controls=0&disablekb=1&enablejsapi=1&iv_load_policy=3&loop=1&playsinline=1&fs=0"></iframe>
+						<iframe frameBorder="0" width="100%" height="300" src="https://www.youtube-nocookie.com/embed/f84JwZPZtls?mute=0&modestbranding=0&autoplay=1&autohide=1&rel=0&showinfo=0&controls=0&disablekb=1&enablejsapi=1&iv_load_policy=3&loop=1&playsinline=1&fs=0"></iframe>
 						<br>
 						<button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal-default">Baca Tahap Menulis Materi</button>
 					</div>

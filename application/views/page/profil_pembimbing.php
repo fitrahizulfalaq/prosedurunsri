@@ -8,7 +8,11 @@
 					<div class="card-body box-profile">
 						<div class="text-justify">
 							<h3>Profil Pembimbing</h3>
-							<img src="<?= base_url()?>/assets/dist/img/pembimbing.jpeg" alt="" width="100%">
+							<img src="<?= base_url() ?>/assets/dist/img/pembimbing.jpeg" alt="" width="100%">
+							<p>
+								Pembimbing: <br>
+								Nama: Prof. Dr. Mulyadi Eko Purnomo, M.Pd.
+							</p>
 							<!-- <p>Produk yang diharapkan dari pengembangan ini berupa sistem aplikasi berbasis web pada ujian kenaikan tingkat yang dapat diakses oleh seluruh peserta didik dari lingkup club pagar nusa Marcka Sidoarjo tanpa batas ruang dan waktu. Adapun spesifikasi produk yang dikembangkan diantaranya :</p>
 							<p>Dalam aplikasi berbasis web tersebut tersedia berbagai sumber belajar berupa kursus dasar setiap materi pelatihan yang disajikan sesuai dengan kebutuhan pelatihan dan pembelajaran. Konten sumber belajar yang digunakan dapat dirincikan sebagai berikut:</p>
 							<p><b>a.&nbsp;&nbsp; &nbsp;Kursus Dasar</b><br>kontributor dalam kursus dasar ini adalah pelatih dan alumni. Setiap kontributor bertindak sebagai instruktur kepelatihan. Untuk sumber literasi tentang pencak silat, pagar nusa, dan video pelatihan pembelajaran pencak silat serta literasi ataupun materi pelatihan tersebut dapat diproduksi oleh kontributor sesuai dengan kebutuhan untuk pelatihan pembelajaran dan ujian kenaikan tingkat.&nbsp;&nbsp; </p>

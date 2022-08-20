@@ -7,7 +7,7 @@
 				<div class="card card-info card-outline">
 					<div class="card-body box-profile">
 						<center>
-							<h4>TUJUAN PEMBELAJARAN & KOMPTENSI DASAR (KD)</h4>
+							<h4>TUJUAN PEMBELAJARAN & KOMPETENSI DASAR (KD)</h4>
 						</center>
 						<hr>
 						<br>
@@ -34,7 +34,7 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<iframe src="https://drive.google.com/file/d/161zogZxO6NMAazRrDB0mo6EK7ujXwEI5/preview" frameborder="0" width="100%" height="700px"></iframe>
+				<iframe src="https://drive.google.com/file/d/1R-44Ttxj0lu12yKVxuPd_hwEcqXEhQaC/preview" frameborder="0" width="100%" height="700px"></iframe>
 			</div>
 			<div class="modal-footer justify-content-between">
 				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

@@ -9,7 +9,7 @@
 					<div class="card-body box-profile">
 						<p><b>TATA CARA PENGGUNAAN</b></p>
 						<ol>
-							<li>Masukkan user name terlebih dahulu, kemudia klik log in.</li>
+							<li>Masukkan username terlebih dahulu, kemudia klik log in.</li>
 							<li>Jelajahi materi sesuai dengan fitur</li>
 						</ol>
 					</div>

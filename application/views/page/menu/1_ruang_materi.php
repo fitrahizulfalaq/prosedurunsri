@@ -8,8 +8,8 @@
 					<div class="card-body box-profile">
 						<center><h2>Ruang Materi</h2></center>
 						<hr>
-						<a href="<?=base_url("page/menu/1-0_kikd")?>" class="btn btn-primary btn-block text-left"><i class="fa fa-book"></i> TUJUAN PEMBELAJARAN & KOMPTENSI DASAR (KD)​</a>
-						<a href="<?=base_url("page/menu/1-1_teksstruktur")?>" class="btn btn-primary btn-block text-left"><i class="fa fa-book"></i> TEKS PROSEDUR & STRUKTUR TEKS PROSEDUR​</a>
+						<a href="<?=base_url("page/menu/1-0_kikd")?>" class="btn btn-primary btn-block text-left"><i class="fa fa-book"></i> TUJUAN PEMBELAJARAN DAN KOMPETENSI DASAR (KD)​</a>
+						<a href="<?=base_url("page/menu/1-1_teksstruktur")?>" class="btn btn-primary btn-block text-left"><i class="fa fa-book"></i> TEKS PROSEDUR DAN STRUKTUR TEKS PROSEDUR​</a>
 						<a href="<?=base_url("page/menu/1-2_tahapmenulis")?>" class="btn btn-primary btn-block text-left"><i class="fa fa-list"></i> TAHAP MENULIS TEKS​ PROSEDUR​</a>
 					</div>
 					<!-- /.card-body -->

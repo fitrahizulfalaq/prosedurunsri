@@ -57,7 +57,7 @@
 			<!-- Right navbar links -->
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
-					<a class="nav-link" href="<?= site_url('auth/logout') ?>"><i class="fas fa-user"></i> Hi <?= $this->session->userdata("username")?>!</a>
+					<a class="nav-link" href="<?= site_url('auth/logout') ?>"><i class="fas fa-user"></i> Hai <?= $this->session->userdata("username")?>!</a>
 					<!-- <a class="nav-link" href="<?= site_url('auth/logout') ?>"><i class="fas fa-sign-out-alt"></i></a> -->
 				</li>
 			</ul>
