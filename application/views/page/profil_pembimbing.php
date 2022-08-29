@@ -11,7 +11,8 @@
 							<img src="<?= base_url() ?>/assets/dist/img/pembimbing.jpeg" alt="" width="100%">
 							<p>
 								Pembimbing: <br>
-								Nama: Prof. Dr. Mulyadi Eko Purnomo, M.Pd.
+								Nama: Prof. Dr. Mulyadi Eko Purnomo, M.Pd.<br>
+								195901171983031014
 							</p>
 							<!-- <p>Produk yang diharapkan dari pengembangan ini berupa sistem aplikasi berbasis web pada ujian kenaikan tingkat yang dapat diakses oleh seluruh peserta didik dari lingkup club pagar nusa Marcka Sidoarjo tanpa batas ruang dan waktu. Adapun spesifikasi produk yang dikembangkan diantaranya :</p>
 							<p>Dalam aplikasi berbasis web tersebut tersedia berbagai sumber belajar berupa kursus dasar setiap materi pelatihan yang disajikan sesuai dengan kebutuhan pelatihan dan pembelajaran. Konten sumber belajar yang digunakan dapat dirincikan sebagai berikut:</p>
