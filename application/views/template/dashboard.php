@@ -57,19 +57,94 @@
 			<!-- Right navbar links -->
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
-					<a class="nav-link" href="<?= site_url('auth/logout') ?>"><i class="fas fa-user"></i> Hai <?= $this->session->userdata("username")?>!</a>
+					<a class="nav-link" href="<?= site_url('auth/logout') ?>"><i class="fas fa-user"></i> Hai <?= $this->session->userdata("username") ?>!</a>
 					<!-- <a class="nav-link" href="<?= site_url('auth/logout') ?>"><i class="fas fa-sign-out-alt"></i></a> -->
 				</li>
 			</ul>
 		</nav>
 		<!-- /.navbar -->
 
+		<!-- Main Sidebar Container -->
+		<aside class="main-sidebar sidebar-light-green elevation-4">
+			<!-- Brand Logo -->
+			<a href="<?= base_url() ?>" class="brand-link bg-info">
+				<img src="<?= base_url() ?>/assets/dist/img/logo-lembaga.png" alt="Logo Lembaga" class="brand-image" style="opacity: 2.8;" width="200px">
+				<!-- <span class="brand-text font-weight-normal"><b><?= ucfirst($this->fungsi->pilihan_advanced("setting", "kode", "namaapk")->row("keterangan")) ?></b></span> -->
+			</a>
+			<!-- Sidebar -->
+
+			<div class="sidebar">
+				<!-- Sidebar user panel (optional) -->
+				<div class="user-panel mt-3 pb-3 mb-3 d-flex">
+					<div class="image">
+						<img src="<?= base_url() ?>/assets/dist/img/foto-user/<?= ($this->fungsi->user_login()->foto != null) ? $this->fungsi->user_login()->foto : "foto-default.png"; ?>" class="img-circle elevation-2" style="width: 60px; height: 60px;" alt="User Image">
+					</div>
+					<div class="info">
+						<a href="#" class="d-block"><?= ucfirst($this->fungsi->user_login()->nama) ?></a>
+						<small><?= ucfirst($this->fungsi->get_deskripsi("tb_tipe_user", $this->session->tipe_user)) ?></small>
+					</div>
+				</div>
+				<!-- Sidebar Menu -->
+				<nav class="mt-2">
+					<ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+						<li class="nav-item">
+							<a href="<?= base_url() ?>" class="nav-link <?= $this->uri->segment(1) == 'dashboard' || $this->uri->segment(1) == "" || $this->uri->segment(1) == "profil" ? "active" : "" ?>">
+								<i class="nav-icon fas fa-home"></i>
+								<p>Beranda</p>
+							</a>
+						</li>
+						<li class="nav-header">FITUR</li>
+						<li class="nav-item">
+							<a href="<?= site_url('page/petunjuk') ?>" class="nav-link <?= $this->uri->segment(2) == 'petunjuk' ? "active" : "" ?>">
+								<i class="nav-icon fas fa-book-reader"></i>
+								<p>Petunjuk</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="<?= site_url('info') ?>" class="nav-link <?= $this->uri->segment(1) == 'info' ? "active" : "" ?>">
+								<i class="nav-icon fas fa-book-reader"></i>
+								<p>Info Terbaru</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="<?= site_url('page/profil_pembimbing') ?>" class="nav-link <?= $this->uri->segment(1) == 'profil_pembimbing' ? "active" : "" ?>">
+								<i class="nav-icon fas fa-book-reader"></i>
+								<p>Profil Pembimbing</p>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="<?= site_url('page/profil_peneliti') ?>" class="nav-link <?= $this->uri->segment(1) == 'profil_peneliti' ? "active" : "" ?>">
+								<i class="nav-icon fas fa-book-reader"></i>
+								<p>Profil Peneliti</p>
+							</a>
+						</li>
+						<?php if ($this->session->tipe_user == '2') { ?>
+							<li class="nav-item">
+								<a href="<?= site_url('tugas') ?>" class="nav-link <?= $this->uri->segment(1) == 'lihat_tugas' ? "active" : "" ?>">
+									<i class="nav-icon fas fa-book"></i>
+									<p>Tugas</p>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a href="<?= site_url('siswa') ?>" class="nav-link <?= $this->uri->segment(1) == 'lihat_tugas' ? "active" : "" ?>">
+									<i class="nav-icon fas fa-book"></i>
+									<p>Pengguna</p>
+								</a>
+							</li>
+						<?php } ?>
+					</ul>
+				</nav>
+				<!-- /.sidebar-menu -->
+			</div>
+			<!-- /.sidebar -->
+		</aside>
+
 		<!-- Content Wrapper. Contains page content -->
 		<div class="content-wrapper">
 			<!-- Content Header (Page header) -->
 			<div class="content-header">
 				<div class="container-fluid">
-					
+
 				</div><!-- /.container-fluid -->
 			</div>
 			<!-- /.content-header -->
@@ -80,10 +155,11 @@
 
 		<footer class="main-footer text-center bg-success d-lg-none">
 			<div class="row text-white">
-				<?php if($this->uri->segment(3) != null) {?>
+				<?php if ($this->uri->segment(3) != null) { ?>
 					<div class="col"><a class="text-white" href="javascript:history.back()"><i class="fas fa-arrow-left"></i> Kembali</a></div>
 				<?php } ?>
-				<?php if($this->uri->segment(3) != null) { } else {?>
+				<?php if ($this->uri->segment(3) != null) {
+				} else { ?>
 					<div class="col"><a class="text-white" href="<?= base_url('dashboard') ?>"><i class="fas fa-home"></i> Beranda</a></div>
 					<div class="col"><a class="text-white" href="<?= base_url('page/menu/awal') ?>"><i class="fas fa-list"></i> Menu</a></div>
 				<?php } ?>
@@ -140,7 +216,7 @@
 		$this->load->view("script/datatables-footer");
 		$this->load->view("script/datatables-anggota");
 	}
-	
+
 	?>
 
 </body>

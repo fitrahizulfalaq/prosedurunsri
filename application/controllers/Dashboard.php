@@ -11,7 +11,7 @@ class Dashboard extends CI_Controller {
 
 	public function haldepan()
 	{
-		$data['menu'] = "Dashboard Marcka apps";		
+		$data['menu'] = "Dashboard Prounsri apps";		
 		$this->templateadmin->load('template/kosong','page/haldepan',$data);
 	}
 
