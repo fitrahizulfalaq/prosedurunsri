@@ -118,6 +118,12 @@
 								<p>Profil Peneliti</p>
 							</a>
 						</li>
+						<li class="nav-item">
+							<a href="<?= base_url('page/menu/awal') ?>" class="nav-link <?= $this->uri->segment(1) == 'dashboard' || $this->uri->segment(1) == "page" || $this->uri->segment(2) == "menu" ? "active" : "" ?>">
+								<i class="nav-icon fas fa-home"></i>
+								<p>Menu</p>
+							</a>
+						</li>
 						<?php if ($this->session->tipe_user == '2') { ?>
 							<li class="nav-item">
 								<a href="<?= site_url('tugas') ?>" class="nav-link <?= $this->uri->segment(1) == 'lihat_tugas' ? "active" : "" ?>">
