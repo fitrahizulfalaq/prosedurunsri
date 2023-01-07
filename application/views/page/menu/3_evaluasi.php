@@ -13,6 +13,7 @@
 						<a href="<?=base_url("tugas/revisi")?>" class="btn btn-primary btn-block text-left"><i class="fa fa-book"></i> REVISI DRAFT</a>
 						<a href="<?=base_url("tugas/teks")?>" class="btn btn-primary btn-block text-left"><i class="fa fa-book"></i> TEKS PROSEDUR​</a>
 						<a href="<?=base_url("tugas/tugasakhir")?>" class="btn btn-primary btn-block text-left"><i class="fa fa-book"></i> TUGAS AKHIR (TEKS PROSEDUR)</a>
+						<a href="https://us05web.zoom.us/j/83375139184?pwd=dU1Hc2t6UlNwaG1GaGd1MmJGY1orUT09" class="btn btn-primary btn-block text-left"><i class="fa fa-book"></i> ZOOM MEETING</a>
 					</div>
 					<!-- /.card-body -->
 				</div>
